@@ -1,0 +1,108 @@
+@media screen and (max-width: 1820px) {
+    .container {
+        max-width: 1820px;
+    }
+
+    .get-account {
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .container {
+        max-width: 1370px;
+    }
+
+    .logo {
+        left: calc(55% - 131px);
+    }
+
+    .bg {
+        width: 40%;
+        overflow: hidden;
+    }
+
+    .bg img {
+        height: 400px;
+    }
+
+    .get-account {
+        padding-left: 90px;
+        padding-right: 60px;
+    }
+
+    .content-container {
+        max-width: 350px;
+    }
+
+    .form input {
+        width: 300px;
+    }
+
+    .terms input {
+        width: initial;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container {
+        max-width: 810px;
+    }
+
+    .bg img {
+        height: 300px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .form label {
+        font-size: 14px;
+    }
+
+    .form input {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .terms input {
+        width: initial;
+    }
+
+    .form button {
+        width: 180px;
+        height: 60px;
+        margin: 20px 0 22px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        max-width: 690px;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .get-account {
+        width: 100%;
+        padding-left: 160px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        max-width: 430px;
+    }
+
+    .get-account {
+        padding-left: 90px;
+    }
+}

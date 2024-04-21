@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Account</title>
+</head>
+<body>
+<div class="container">
+    <div class="popup-display" id="popup">
+        <div class="popup-bg"></div>
+        <div class="popup">
+            <p class="popup-description">
+                На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+            </p>
+            <button type="button" id="popup-btn" class="btn popup-btn">ОК</button>
+        </div>
+    </div>
+    <div class="logo">
+        <img src="images/homeWorks.png" alt="">
+    </div>
+    <div class="bg">
+        <img src="images/bg.png" alt="">
+    </div>
+    <main class="get-account">
+        <div class="content-container">
+            <h1 class="heading">Get your free account</h1>
+            <p class="description">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+                anytime.</p>
+            <form class="form" action="" method="post">
+                <label>Full Name
+                    <input type="text" id="name" class="account-input">
+                    <span class="error"></span>
+                </label>
+                <label>Your username
+                    <input type="text" id="username" class="account-input">
+                    <span class="error"></span>
+                </label>
+                <label>E-mail
+                    <input type="email" id="mail" class="account-input">
+                    <span class="error"></span>
+                </label>
+                <label>Password
+                    <input type="password" id="password" class="account-input">
+                    <span class="error"></span>
+                </label>
+                <label>Repeat Password
+                    <input type="password" id="password-repeat" class="account-input">
+                    <span class="error"></span>
+                </label>
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" id="terms">
+                        Agree to our Terms of Service and Privacy Statement
+                        <span class="error"></span>
+                    </label>
+                </div>
+                <div class="form-button">
+                    <button type="button" id="submit-btn" class="btn">Sign Up</button>
+                </div>
+                <div class="have-an-account">
+                    <a href="#">Already have an account?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
