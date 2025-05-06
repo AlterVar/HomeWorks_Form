@@ -79,10 +79,9 @@ body {
 .get-account {
     background-color: #FFFFFF;
     width: 50%;
-    padding: 194px 85px 191px 0;
+    padding: 194px 85px 191px 0px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     box-sizing: border-box;
 }
 
@@ -111,7 +110,6 @@ body {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
-    cursor: pointer;
 }
 
 .form input {
@@ -124,12 +122,6 @@ body {
     outline: none;
     border: none;
     border-bottom: 1px solid #C6C6C4;
-    cursor: pointer;
-}
-
-.form .error {
-    color: #dd3142;
-    display: none;
 }
 
 .terms {
@@ -141,7 +133,6 @@ body {
     color: #636363;
     font-size: 16px;
     line-height: 27px;
-    cursor: pointer;
 }
 
 .terms input {
@@ -151,7 +142,6 @@ body {
 
 .form-button {
     text-align: center;
-    cursor: pointer;
 }
 
 .btn {
